@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Launch banner
         const banner = document.createElement('div');
         banner.className = 'line';
-        banner.innerHTML = '<div class="launch-banner"><span class="cmd bold">▸ REDIRECTING TO NEXAFOTECH.COM</span></div>';
+        banner.innerHTML = '<div class="launch-banner"><span class="cmd bold">▸ ENTERING NEXAFOTECH.COM — ACCESS GRANTED</span></div>';
         output.appendChild(banner);
         scroll();
 
