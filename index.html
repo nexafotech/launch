@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXAFO TECH — Terminal</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Matrix rain canvas -->
+    <canvas id="matrix"></canvas>
+
+    <div class="terminal">
+        <!-- Terminal chrome -->
+        <div class="terminal-bar">
+            <div class="bar-dots">
+                <span class="bar-dot red"></span>
+                <span class="bar-dot yellow"></span>
+                <span class="bar-dot green"></span>
+            </div>
+            <span class="bar-title">nexafo@launch:~</span>
+        </div>
+
+        <!-- Terminal output -->
+        <div class="terminal-body" id="terminal-body">
+            <div id="output"></div>
+            <div class="input-line" id="input-line">
+                <span class="prompt">▶</span>
+                <span class="cursor">█</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
